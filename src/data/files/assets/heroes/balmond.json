@@ -1,0 +1,103 @@
+[
+    {
+        "hero_id": "2",
+        "hero_name": "Balmond",
+        "hero_role": "Fighter",
+        "cosmetics": {
+            "skins": [
+                {
+                    "skin_code": "Hero021",
+                    "skin_name": "Bloody Beast",
+                    "skin_tag": "",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero021-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164249",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero022",
+                    "skin_name": "Power Source",
+                    "skin_tag": "",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cd/Hero022-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164259",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero023",
+                    "skin_name": "Ghoul's Fury",
+                    "skin_tag": "Elite",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a9/Hero023-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164302",
+                    "landscape_url": "",
+                    "skin_tag_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Elite_Skin_Tag.png/revision/latest/scale-to-width-down/75?cb=20210414064230",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero024",
+                    "skin_name": "Savage Hunter",
+                    "skin_tag": "Elite",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Hero024-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164306",
+                    "landscape_url": "",
+                    "skin_tag_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Elite_Skin_Tag.png/revision/latest/scale-to-width-down/75?cb=20210414064230",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero025",
+                    "skin_name": "God of Mountains",
+                    "skin_tag": "Collector",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero026",
+                    "skin_name": "Savage Pointguard",
+                    "skin_tag": "Special",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero027",
+                    "skin_name": "Bioroid",
+                    "skin_tag": "Starlight",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero028",
+                    "skin_name": "Infernal Warlord",
+                    "skin_tag": "Epic",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                }
+            ],
+            "painted_skins": [
+                {
+                    "skin_code": "Hero026",
+                    "skin_name": "Mighty Pointguard",
+                    "skin_tag": "Special",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                }
+            ]
+        }
+    }
+]

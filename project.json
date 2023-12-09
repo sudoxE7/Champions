@@ -1,0 +1,13 @@
+{
+  "app_name": "Champions",
+  "color_accent": "#FF008DCD",
+  "color_control_highlight": "#20008DCD",
+  "color_control_normal": "#FF57BEEE",
+  "color_primary": "#FF008DCD",
+  "color_primary_dark": "#FF0084C2",
+  "custom_icon": false,
+  "my_sc_pkg_name": "com.mga.bayani",
+  "my_ws_name": "NewProject",
+  "version_code": "1",
+  "version_name": "1.0"
+}

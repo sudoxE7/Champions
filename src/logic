@@ -1,0 +1,52 @@
+@MainActivity.java_list
+3:listMap
+
+@MainActivity.java_func
+getJsonFromAssets[String]:getJsonFromAssets[String] %s.fileName
+onBindCustomRecyclerView:onBindCustomRecyclerView %m.listMap.data %d.position
+
+@MainActivity.java_events
+{"eventName":"onBindCustomView","eventType":1,"targetId":"listView","targetType":9}
+
+@MainActivity.java_onCreate_initializeLogic
+{"color":-10701022,"id":"12","nextBlock":14,"opCode":"strToListMap","parameters":["@15","listMap"],"spec":"JSON %s to %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-7711273,"id":"15","nextBlock":-1,"opCode":"definedFunc","parameters":["heroes.json"],"spec":"getJsonFromAssets %s.fileName","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-11899692,"id":"14","nextBlock":-1,"opCode":"listSetCustomViewData","parameters":["listView","listMap"],"spec":"%m.listview setListCustomViewData %m.listMap","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_getJsonFromAssets[String]_moreBlock
+{"color":-10701022,"id":"10","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["try (java.io.InputStream is \u003d getApplicationContext().getAssets().open(_fileName)) {\n    byte[] buffer \u003d new byte[is.available()];\n    is.read(buffer);\n    return new String(buffer, java.nio.charset.StandardCharsets.UTF_8);\n} catch (java.io.IOException e) {\n    e.printStackTrace();\n    return null;\n}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_import_Import
+{"color":-1147627,"id":"10","nextBlock":11,"opCode":"customImport","parameters":["com.google.gson.Gson"],"spec":"import %s.import","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1147627,"id":"11","nextBlock":12,"opCode":"customImport","parameters":["com.google.gson.JsonObject"],"spec":"import %s.import","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-1147627,"id":"12","nextBlock":-1,"opCode":"customImport","parameters":["com.google.gson.JsonArray"],"spec":"import %s.import","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_onBindCustomRecyclerView_moreBlock
+{"color":-10701022,"id":"10","nextBlock":28,"opCode":"addSourceDirectly","parameters":["}\npublic class recyclerViewAdapter extends RecyclerView.Adapter\u003crecyclerViewAdapter.ViewHolder\u003e {\n\tArrayList\u003cHashMap\u003cString, Object\u003e\u003e _data;\r\n\tpublic recyclerViewAdapter(ArrayList\u003cHashMap\u003cString, Object\u003e\u003e _arr) {\n\t\t_data \u003d _arr;\n\t}\n\t\n\t@Override\n\tpublic ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {\n\t\tLayoutInflater _inflater \u003d (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);\n\t\tView _v \u003d _inflater.inflate(R.layout.items, null);\n\t\tRecyclerView.LayoutParams _lp \u003d new RecyclerView.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);\n\t\t_v.setLayoutParams(_lp);\n\t\treturn new ViewHolder(_v);\n\t}\n\t\n\t@Override\n\tpublic void onBindViewHolder(ViewHolder _holder, final int _position) {\n\t\tView _view \u003d _holder.itemView;"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-10701022,"id":"28","nextBlock":74,"opCode":"addSourceDirectly","parameters":["final ImageView portraitImageView \u003d (ImageView) _view.findViewById(R.id.portraitImageView);\nfinal TextView skinNameTextView \u003d (TextView) _view.findViewById(R.id.skinNameTextView);\nfinal ImageView skinTagImageView \u003d (ImageView) _view.findViewById(R.id.skinTagImageView);"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-11899692,"id":"74","nextBlock":54,"opCode":"setImageUrl","parameters":["portraitImageView","@75"],"spec":"%m.imageview set image from url %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3384542,"id":"75","nextBlock":-1,"opCode":"getAtListMap","parameters":["@76","portrait_url","@77"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"76","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"77","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-11899692,"id":"54","nextBlock":96,"opCode":"setText","parameters":["skinNameTextView","@58"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3384542,"id":"58","nextBlock":-1,"opCode":"getAtListMap","parameters":["@61","skin_name","@63"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"61","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"63","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-11899692,"id":"96","nextBlock":69,"opCode":"setImageUrl","parameters":["skinTagImageView","@97"],"spec":"%m.imageview set image from url %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3384542,"id":"97","nextBlock":-1,"opCode":"getAtListMap","parameters":["@98","skin_tag_url","@99"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"98","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"99","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-11899692,"id":"69","nextBlock":19,"opCode":"viewOnClick","parameters":["portraitImageView"],"spec":"When %m.view clicked","subStack1":70,"subStack2":-1,"type":"c","typeName":""}
+{"color":-13851166,"id":"70","nextBlock":-1,"opCode":"doToast","parameters":["@71"],"spec":"Toast %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3384542,"id":"71","nextBlock":-1,"opCode":"getAtListMap","parameters":["@72","skin_name","@73"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"72","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"73","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10701022,"id":"19","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["}\n\t\n\t@Override\n\tpublic int getItemCount() {\n\t\treturn _data.size();\n\t}\n\t\n\tpublic class ViewHolder extends RecyclerView.ViewHolder {\n\t\tpublic ViewHolder(View v) {\n\t\t\tsuper(v);\n\t\t}\n\t}"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+
+@MainActivity.java_listView_onBindCustomView
+{"color":-11899692,"id":"35","nextBlock":118,"opCode":"setText","parameters":["textView","@36"],"spec":"%m.textview setText %s","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+{"color":-3384542,"id":"36","nextBlock":-1,"opCode":"getAtListMap","parameters":["@50","hero_name","@51"],"spec":"get value at %d key %s of %m.listMap","subStack1":-1,"subStack2":-1,"type":"s","typeName":""}
+{"color":-7711273,"id":"50","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"position","subStack1":-1,"subStack2":-1,"type":"d","typeName":""}
+{"color":-7711273,"id":"51","nextBlock":-1,"opCode":"getArg","parameters":[],"spec":"data","subStack1":-1,"subStack2":-1,"type":"l","typeName":"List Map"}
+{"color":-10701022,"id":"118","nextBlock":-1,"opCode":"addSourceDirectly","parameters":["ArrayList\u003cHashMap\u003cString, Object\u003e\u003e heroDataList \u003d new Gson().fromJson(_getJsonFromAssets(\"heroes/\" + _data.get(_position).get(\"hero_name\").toString().toLowerCase() + \".json\"), new TypeToken\u003cArrayList\u003cHashMap\u003cString, Object\u003e\u003e\u003e(){}.getType());\nJsonObject heroJsonObject \u003d new Gson().fromJson(new Gson().toJson(heroDataList.get(0)), JsonObject.class);\nJsonArray skinsArray \u003d heroJsonObject.getAsJsonObject(\"cosmetics\").getAsJsonArray(\"skins\");\nArrayList\u003cHashMap\u003cString, Object\u003e\u003e skinListMap \u003d new ArrayList\u003c\u003e();\n\nfor (int i \u003d 0; i \u003c skinsArray.size(); i++) {\n    final int index \u003d i;\n    skinListMap.add(new HashMap\u003cString, Object\u003e() {{\n        put(\"skin_code\", skinsArray.get(index).getAsJsonObject().get(\"skin_code\").getAsString());\n        put(\"skin_name\", skinsArray.get(index).getAsJsonObject().get(\"skin_name\").getAsString());\n        put(\"skin_tag\", skinsArray.get(index).getAsJsonObject().get(\"skin_tag\").getAsString());\n        put(\"icon_url\", skinsArray.get(index).getAsJsonObject().get(\"icon_url\").getAsString());\n        put(\"portrait_url\", skinsArray.get(index).getAsJsonObject().get(\"portrait_url\").getAsString());\n        put(\"landscape_url\", skinsArray.get(index).getAsJsonObject().get(\"landscape_url\").getAsString());\n        put(\"skin_tag_url\", skinsArray.get(index).getAsJsonObject().get(\"skin_tag_url\").getAsString());\n        put(\"zip_file_url\", skinsArray.get(index).getAsJsonObject().get(\"zip_file_url\").getAsString());\n    }});\n}\n\nrecyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, true) {{\n    setReverseLayout(false);\n    setStackFromEnd(false);\n}});\n\nrecyclerView.setAdapter(new recyclerViewAdapter(skinListMap));\n"],"spec":"add source directly %s.inputOnly","subStack1":-1,"subStack2":-1,"type":" ","typeName":""}
+

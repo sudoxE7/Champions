@@ -1,0 +1,143 @@
+[
+    {
+        "hero_id": "1",
+        "hero_name": "Miya",
+        "hero_role": "Marksman",
+        "cosmetics": {
+            "skins": [
+                {
+                    "skin_code": "Hero011",
+                    "skin_name": "Moonlight Archer",
+                    "skin_tag": "",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Hero011-portrait.png/revision/latest/scale-to-width-down/154?cb=20230826055033",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero012",
+                    "skin_name": "Burning Bow",
+                    "skin_tag": "Elite",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Hero012-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164206",
+                    "landscape_url": "",
+                    "skin_tag_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Elite_Skin_Tag.png/revision/latest/scale-to-width-down/75?cb=20210414064230",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero013",
+                    "skin_name": "Christmas Carnival",
+                    "skin_tag": "Christmas",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/67/Hero013-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164212",
+                    "landscape_url": "",
+                    "skin_tag_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Christmas_Skin_Tag.png/revision/latest/scale-to-width-down/75?cb=20211201154100",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero014",
+                    "skin_name": "Captain Thorns",
+                    "skin_tag": "Starlight",
+                    "icon_url": "",
+                    "portrait_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/05/Hero014-portrait.png/revision/latest/scale-to-width-down/154?cb=20220525164219",
+                    "landscape_url": "",
+                    "skin_tag_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/26/Starlight_Skin_Tag.png/revision/latest/scale-to-width-down/75?cb=20230214083603",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero015",
+                    "skin_name": "Honor",
+                    "skin_tag": "Limited",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero016",
+                    "skin_name": "Modena Butterfly",
+                    "skin_tag": "Legend",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero017",
+                    "skin_name": "Sweet Fantasy",
+                    "skin_tag": "Valentine",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero018",
+                    "skin_name": "Suzuhime",
+                    "skin_tag": "Special",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero019",
+                    "skin_name": "Jungle Ranger",
+                    "skin_tag": "",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero020",
+                    "skin_name": "Moon Princess",
+                    "skin_tag": "Anniversary",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero021",
+                    "skin_name": "Doom Catalyst",
+                    "skin_tag": "Collector",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                },
+                {
+                    "skin_code": "Hero022",
+                    "skin_name": "Atomic Pop Miya",
+                    "skin_tag": "Atomic",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                }
+            ],
+            "painted_skins": [
+                {
+                    "skin_code": "Hero012",
+                    "skin_name": "Tranquil Bow",
+                    "skin_tag": "Elite",
+                    "icon_url": "",
+                    "portrait_url": "",
+                    "landscape_url": "",
+                    "skin_tag_url": "",
+                    "zip_file_url": ""
+                }
+            ]
+        }
+    }
+]
